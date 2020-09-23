@@ -39,16 +39,4 @@ def main():
     return appendSort(tempList)
 
 
-    # while True:
-    #     inp = raw_input("Please enter quit if you wish to quit, else enter any other character")
-    #     if inp == "quit":
-    #         destList.sort(key=distance)
-    #         print destList
-    #         break
-    #     else:
-    #         location2 = raw_input("Enter destination: ")
-    #         dest = geolocator.geocode(location2)
-    #         destList.append({'Address': location2, 'Distance': float(haversine(origin.latitude, origin.longitude, dest.latitude, dest.longitude))})
-    #
-
 main()
